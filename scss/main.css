@@ -488,7 +488,7 @@ align-items: center;
 justify-content: center;
 width: 100vw;
 height: 100vh;
-background-color: rgb(47, 255, 144);
+background-color: white;
 mix-blend-mode: screen;
 outline: 0;
 overflow-x: hidden;
@@ -502,6 +502,13 @@ margin: 0;
 text-align: center;
 font-family: 'IBM Plex Sans', sans-serif;
 outline: 0;
+border-style:inset;
+border-left-width: 3rem;
+border-right-width: 3rem;
+border-top-width: 0px;
+border-bottom-width: 0px;
+border-color: #ff0800;
+/* background-color: firebrick; */
 }
 .cursor {
 position: fixed;
@@ -583,12 +590,12 @@ padding-right: 0px !important;
 
     /*header_space*/
     @media only screen and (max-width: 799px) {
-      .header_space {
-        height: 66px;
+      .content {
+        margin-top: 66px;
       }
     }
     @media only screen and (min-width: 799px) {
-      .header_space {
-        height: 120px;
+      .content {
+        margin-top: 120px;
       }
     }
