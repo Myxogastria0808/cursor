@@ -461,13 +461,8 @@
   font-family: 'IBM Plex Sans', sans-serif;
 } */
 
-* {
-  cursor: none;
-}
-
 
 .Features_cursor {
-  cursor: none;
   outline: 0;
   padding-left: 0px !important;
   padding-right: 0px !important;
@@ -493,7 +488,7 @@ align-items: center;
 justify-content: center;
 width: 100vw;
 height: 100vh;
-background: #fff;
+background-color: rgb(47, 255, 144);
 mix-blend-mode: screen;
 outline: 0;
 overflow-x: hidden;
@@ -510,8 +505,8 @@ outline: 0;
 }
 .cursor {
 position: fixed;
-width: 20px;
-height: 20px;
+width: 0px;
+height: 0px;
 border-radius: 50%;
 will-change: transform;
 user-select: none;
